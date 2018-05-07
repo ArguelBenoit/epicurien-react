@@ -1,0 +1,20 @@
+.menu ul {
+  margin-top: 15px;
+  margin-bottom: 40px
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  background: #f87;
+  text-decoration: none;
+  color: #222;
+  padding: 5px 12px;
+  transition-duration: 100ms;
+  border-left: 0px solid #f87;
+  font-size: 17px;
+  font-weight: bold;
+}
+.menu li a:hover {
+  border-left: 5px solid #d35847;
+}

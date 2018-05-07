@@ -1,0 +1,9 @@
+.posts-container {
+  text-align: left;
+}
+.posts-container .post {
+  background: white;
+  min-height: 200px;
+  padding: 20px;
+  margin-bottom: 30px;
+}

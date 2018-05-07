@@ -1,0 +1,39 @@
+.widgets h1,
+.widgets h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ff8877;
+}
+
+.widgets section {
+  margin-top: 50px;
+}
+
+.widgets div.textwidget,
+.widgets h1,
+.widgets h2,
+.widgets form,
+.widgets li {
+  text-align: left;
+}
+
+.widgets input,
+.widgets select,
+.widgets button {
+  width: 100%;
+}
+
+.widgets ul li {
+  list-style: none;
+}
+.widgets ul li a {
+  font-weight: bold;
+  padding: 5px 5px 5px 0;
+  width: inherit;
+}
+.widgets ul li a:hover {
+  background: #f87;
+  color: black;
+  padding: 5px;
+}
