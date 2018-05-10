@@ -5,7 +5,7 @@
     register_nav_menu('main_menu', 'left menu');
   }
 
-  add_action('widgets_init','add_sidebar');
+  add_action('widgets_init', 'add_sidebar');
   function add_sidebar() {
     register_sidebar(array(
         'id' => 'widgets-zone',
