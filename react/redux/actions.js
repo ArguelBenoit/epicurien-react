@@ -21,7 +21,6 @@ export const downloadWidgets = (res) => {
   };
 };
 
- // stop here
 export const downloadPosts = (res) => {
   return {
     type: 'DOWNLOAD_POSTS',

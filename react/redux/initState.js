@@ -1,7 +1,7 @@
 
 const initState = {
   // apiUrl: 'http://benoitarguel.ddns.net/',
-  apiUrl: `${window.location.protocol}//${window.location.hostname}:8080/`,
+  apiUrl: `${window.location.protocol}//${window.location.hostname}`,
   information: {
     name: '',
     description: ''
